@@ -42,10 +42,16 @@ you will see "done"
 
 ### Generating Proof
 - Create new project
-```cargo prove new fibonacci && cd fibonacci```
+```
+cargo prove new fibonacci && cd fibonacci
+```
 - Execute Proof
-```cd script```
-```RUST_LOG=info cargo run --release -- --execute```
+```
+cd script
+```
+```
+RUST_LOG=info cargo run --release -- --execute
+```
 This should take some minutes, but you should see a message like "program executed successfully"
 
 - Generate a proof (automatically saves to your disk)
